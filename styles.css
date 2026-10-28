@@ -36,7 +36,7 @@
     width: clamp(200px, 20vw, 420px);
     aspect-ratio: 1179 / 2086;
     border-radius: 50%;
-    background-image: url("Brevin.png");
+    background-image: url("images/Brevin.png");
     background-size: 130% auto;
     background-repeat: no-repeat;
     background-position: 1% 60%;
@@ -241,10 +241,10 @@
   }
   .thumb { height: 150px; }
   .thumb-hugs {
-    background: url("Spring-Adventures-in-Apache-Junction-AZ-1.webp") center / cover no-repeat;
+    background: url("images/Spring-Adventures-in-Apache-Junction-AZ-1.webp") center / cover no-repeat;
   }
   .thumb-recipes {
-    background: url("homemade-alfredo-sauce-3.jpg") center 48% / cover no-repeat;
+    background: url("images/homemade-alfredo-sauce-3.jpg") center 48% / cover no-repeat;
   }
   .project .body { padding: 20px 22px 24px; }
   .project h2 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
