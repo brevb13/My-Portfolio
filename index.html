@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <div class="hero-img" aria-hidden="true"></div>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+    <span class="theme-toggle-track" aria-hidden="true"><span class="theme-toggle-thumb">☀️</span></span>
+  </button>
+  <aside class="theme-guide" aria-hidden="true">
+    <p>Choose between light and dark!</p>
+    <svg viewBox="0 0 360 76" aria-hidden="true">
+      <defs>
+        <marker id="theme-guide-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <path d="M0 0 L8 4 L0 8 Z"></path>
+        </marker>
+      </defs>
+      <path d="M90 58 C144 58 174 43 214 32 C234 26 250 21 265 17" marker-end="url(#theme-guide-arrow)"></path>
+    </svg>
+  </aside>
+
+  <div class="content">
+    <nav class="glass" aria-label="Sections">
+      <div class="lens" id="lens" aria-hidden="true"></div>
+      <button class="tab" data-index="0" aria-current="page">About</button>
+      <button class="tab" data-index="1" aria-current="false">Projects</button>
+      <button class="tab" data-index="2" aria-current="false">Interests</button>
+    </nav>
+
+    <div class="viewport">
+      <div class="track" id="track">
+
+        <section>
+          <p class="eyebrow">About</p>
+          <h1 class="big">Brevin Bartsch</h1>
+          <p class="lead">Student at WGU, Computer Science Major - 83% completion</p>
+          <div class="facts">
+            <div class="card fact"><small>Arizona</small><strong>Mesa</strong></div>
+            <div class="card fact"><small>Currently</small><strong>Scheduler at Lesueur Car Company</strong></div>
+            <a class="card fact github-card" href="https://github.com/brevb13" target="_blank" rel="noopener noreferrer" aria-label="Visit Brevin's GitHub profile">
+              <small>🧑‍💻 Come explore</small><strong>My GitHub ↗</strong>
+            </a>
+          </div>
+          <div class="gallery">
+            <h2>Snapshots</h2>
+            <div class="gallery-grid">
+              <figure class="gallery-item">
+                <img src="snapshot-black-cat.png" alt="Black cat sitting on a bed">
+              </figure>
+              <figure class="gallery-item">
+                <img src="snapshot-date-night.jpg" alt="Couple dressed up together at sunset">
+              </figure>
+              <figure class="gallery-item">
+                <img src="snapshot-tabby-cat.jpg" alt="Tabby cat sitting on a pink blanket">
+              </figure>
+              <figure class="gallery-item">
+                <img src="snapshot-cats-together.jpg" alt="Two cats lying together on the floor">
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <p class="eyebrow">Projects</p>
+          <h1 class="title">Personal and Professional</h1>
+          <div class="projects">
+            <a class="card project" href="https://brevb13.github.io/handup-guiding-website/" target="_blank" rel="noopener noreferrer">
+              <div class="thumb thumb-hugs"></div>
+              <div class="body"><h2>Website for HUGS</h2><p>Prioritized mobile and Desktop support!</p></div>
+            </a>
+            <a class="card project" href="https://brevb13.github.io/odin-recipes/" target="_blank" rel="noopener noreferrer">
+              <div class="thumb thumb-recipes" aria-hidden="true"></div>
+              <div class="body"><h2>Personal Recipes</h2><p>Try making one!</p></div>
+            </a>
+            <div class="card project">
+              <div class="thumb" style="background: linear-gradient(135deg, #fdeee6, #f3e9ff)"></div>
+              <div class="body"><h2>[Project Three]</h2><p>[One-line description]</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <p class="eyebrow">Interests</p>
+          <h1 class="title">What I love</h1>
+          <div class="chips">
+            <div class="card chip">Spending time with my partner</div>
+            <div class="card chip">hanging out with my cats</div>
+            <a class="card chip video-game-chip" href="https://www.youtube.com/@brevnuts" target="_blank" rel="noopener noreferrer">Video games</a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
